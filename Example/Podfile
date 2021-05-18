@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'libDemo_Example' do
+  pod 'libDemo', :path => '../'
+
+  target 'libDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
