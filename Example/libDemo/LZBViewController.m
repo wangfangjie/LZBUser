@@ -7,6 +7,7 @@
 //
 
 #import "LZBViewController.h"
+#import "LZBTestVC.h"
 
 @interface LZBViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    LZBTestVC *vc = [[LZBTestVC alloc] init];
+    [vc run];
+    
 }
 
 - (void)didReceiveMemoryWarning
